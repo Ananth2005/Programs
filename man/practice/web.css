@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #05f177, #07b131);
+    padding: 3% !important;
+    height: 20;
+}
+
+.navbar-nav li a {
+    color: #ffffff !important;
+    font-weight: 400;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+.carousel-indicators {
+    margin-bottom: 100px;
+}
+
+.container-fluid {
+    margin-top: 5;
+    border-left: 5%;
+    align-content: center;
+}
+
+.wave {
+    color: #ffffff;
+}
